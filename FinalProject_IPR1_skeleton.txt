@@ -2,14 +2,14 @@
 
 Final Project:
 
-Database: Wiki for XXX
+Database: Wiki for Cars featured in Fast and Furious
 
 Objective:
-Page visitors can look for details regarding Cars in Fast And Furious.
+	- Page visitors can look for details regarding Cars in Fast And Furious.
 
 
 Situation: [description of real world use]
-	- Visitors can look at the cars that were feaured in F&F
+	- Visitors can look at the cars that were featured in F&F
 	- Editors can add cars details regarding the movie
 	- Moderators can verify changes made to pages and block users 
 	- admin can make/delete pages to the wiki and change user privs
@@ -24,8 +24,8 @@ Use case diagram: [4 actors required], [7 use cases]
 	+ comment
 
 - admin
-	+ add pages
-	+ delete pages
+	+ add entry
+	+ delete entry
 	+ gives privs
 	+ takes privs
 	
