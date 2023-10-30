@@ -1,0 +1,44 @@
+
+
+Final Project:
+
+Database: Wiki for XXX
+
+Objective:
+Page visitors can look for details regarding Cars in Fast And Furious.
+
+
+Situation: [description of real world use]
+	- Visitors can look at the cars that were feaured in F&F
+	- Editors can add cars details regarding the movie
+	- Moderators can verify changes made to pages and block users 
+	- admin can make/delete pages to the wiki and change user privs
+
+
+
+Use case diagram: [4 actors required], [7 use cases]
+
+- page visitors
+	+ look at pages
+	+ make suggestions
+	+ comment
+
+- admin
+	+ add pages
+	+ delete pages
+	+ gives privs
+	+ takes privs
+	
+	
+- moderator
+	+ verify edits made to pages
+	+ temporarily block users
+	
+- editor
+	+ make edits to pages
+
+Data model:
+
+
+
+External database source:
