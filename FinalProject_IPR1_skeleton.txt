@@ -5,7 +5,7 @@ Final Project:
 Database: Wiki for Cars featured in Fast and Furious
 
 Objective:
-	- Page visitors can look for details regarding Cars in Fast And Furious.
+	- Allow page visitors to access detailed information about the cars featured in the Fast and Furious franchise.
 
 
 Situation: [description of real world use]
@@ -18,24 +18,24 @@ Situation: [description of real world use]
 
 Use case diagram: [4 actors required], [7 use cases]
 
-- page visitors
-	+ look at pages
-	+ make suggestions
-	+ comment
+	- page visitors
+		+ look at pages
+		+ make suggestions
+		+ comment
 
-- admin
-	+ add entry
-	+ delete entry
-	+ gives privs
-	+ takes privs
+	- admin
+		+ add entry
+		+ delete entry
+		+ gives privs
+		+ takes privs
 	
 	
-- moderator
-	+ verify edits made to pages
-	+ temporarily block users
+	- moderator
+		+ verify edits made to pages
+		+ temporarily block users
 	
-- editor
-	+ make edits to pages
+	- editor
+		+ make edits to pages
 
 Data model:
 
