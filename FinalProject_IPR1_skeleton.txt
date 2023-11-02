@@ -17,7 +17,6 @@ Situation: [description of real world use]
 
 
 Use case diagram: [4 actors required], [7 use cases]
-
 	- page visitors
 		+ look at pages
 		+ make suggestions
@@ -28,7 +27,6 @@ Use case diagram: [4 actors required], [7 use cases]
 		+ delete entry
 		+ gives privs
 		+ takes privs
-	
 	
 	- moderator
 		+ verify edits made to pages
