@@ -35,9 +35,6 @@ Use case diagram: [4 actors required], [7 use cases]
 	- editor
 		+ make edits to pages
 
-Data model:
-
-
 
 External database source:
 	- https://fastandfurious.fandom.com/wiki/Category:Cars
