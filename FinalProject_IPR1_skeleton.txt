@@ -40,3 +40,4 @@ Data model:
 
 
 External database source:
+	- https://fastandfurious.fandom.com/wiki/Category:Cars
