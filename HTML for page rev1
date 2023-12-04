@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast and Furious Wiki</title>
+    <style>
+        /* Add your custom styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #333;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+        }
+
+        button {
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Fast and Furious Wiki</h1>
+
+    <!-- Display cars table -->
+    <h2>Featured Cars</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Year</th>
+                <th>Make</th>
+                <th>Model</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Use server-side code to dynamically generate rows -->
+            <tr>
+                <td>Car 1</td>
+                <td>2022</td>
+                <td>Make 1</td>
+                <td>Model 1</td>
+            </tr>
+            <tr>
+                <td>Car 2</td>
+                <td>2021</td>
+                <td>Make 2</td>
+                <td>Model 2</td>
+            </tr>
+            <!-- Add more rows dynamically -->
+        </tbody>
+    </table>
+
+    <!-- User interactions -->
+    <h2>User Interactions</h2>
+    <ul>
+        <li><a href="#">Look at Pages</a></li>
+        <li><a href="#">Make Suggestions</a></li>
+        <li><a href="#">Comment</a></li>
+    </ul>
+
+    <!-- Form for adding a new car -->
+    <h2>Add New Car</h2>
+    <form>
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title" required>
+
+        <label for="year">Year:</label>
+        <input type="number" id="year" name="year">
+
+        <label for="make">Make:</label>
+        <input type="text" id="make" name="make">
+
+        <label for="model">Model:</label>
+        <input type="text" id="model" name="model">
+
+        <button type="submit">Add Car</button>
+    </form>
+</body>
+
+</html>
